@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeScreenFragment">
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.shubham.gupta8416.digilocker.HomeScreenFragment"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homeScreenFragment_to_issuedDocumentFragment"
+            app:destination="@id/issuedDocumentFragment" />
+        <action
+            android:id="@+id/action_homeScreenFragment_to_potentialFragment"
+            app:destination="@id/potentialFragment" />
+        <action
+            android:id="@+id/action_homeScreenFragment_to_use"
+            app:destination="@id/use" />
+    </fragment>
+    <fragment
+        android:id="@+id/issuedDocumentFragment"
+        android:name="com.shubham.gupta8416.digilocker.IssuedDocumentFragment"
+        android:label="fragment_issued_document"
+        tools:layout="@layout/fragment_issued_document" />
+    <fragment
+        android:id="@+id/potentialFragment"
+        android:name="com.shubham.gupta8416.digilocker.PotentialFragment"
+        android:label="PotentialFragment" >
+        <argument
+            android:name="driving"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/use"
+        android:name="com.shubham.gupta8416.digilocker.Use"
+        android:label="fragment_use"
+        tools:layout="@layout/fragment_use" >
+    </fragment>
+</navigation>

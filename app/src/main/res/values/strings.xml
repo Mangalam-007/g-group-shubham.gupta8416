@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DigiLocker</string>
+    <string name="info">"DigiLocker 'Issued Documents' are at par with origonal Documents as per IT ACT 2020"</string>
+    <string name="airport">"Documents from digiLocker are valid in airports across India under the AAI notification."</string>
+    <string name="info1">"Indian Railways now accept digital aadhaar and Driving License as from DigiLocker as valid ID proof."</string>
+    <string name="info2">"Class X and XII Marks Sheets and Passing Certificates of Maharashtra State Board of Secondary and Higher Secondary and Higher Secondary Education are available in DigiLocker."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
